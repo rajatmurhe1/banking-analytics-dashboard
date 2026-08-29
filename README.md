@@ -1,3 +1,10 @@
+Ah, that explains it! GitHub is strictly case-sensitive, so the paths in the README have to match your folder names exactly.
+
+Since your folders are named EDA and Power-BI, the code needs to reflect those exact capital letters and the hyphen.
+
+Here is the finalized code. Copy and paste this directly into your README.md on GitHub, and your images will finally show up!
+
+Markdown
 # 🏦 Banking Analytics & Performance Dashboard
 
 > **An end-to-end data analytics project exploring customer demographics, lending risk, and deposit behavior.**
@@ -15,19 +22,19 @@ This repository contains a complete data pipeline, from Python-based Exploratory
 
 ### 1. Overview & Home
 *A high-level snapshot of total clients, total loan portfolios, and deposit amounts categorized by gender and timeframe.*
-![Home Page Overview](powerbi/page1_home.png)
+![Home Page Overview](Power-BI/page1_home.png)
 
 ### 2. Loan Analysis
 *In-depth breakdown of the $1.99bn loan portfolio, analyzing business lending vs. personal credit cards, and segmenting risk by income bands and nationality.*
-![Loan Analysis View](powerbi/page2_loan_analysis.png)
+![Loan Analysis View](Power-BI/page2_loan_analysis.png)
 
 ### 3. Deposit Analysis
 *A granular look at $1.73bn in deposits, comparing checking accounts, savings accounts, and foreign currency accounts across different engagement timeframes.*
-![Deposit Analysis View](powerbi/page3_deposit_analysis.png)
+![Deposit Analysis View](Power-BI/page3_deposit_analysis.png)
 
 ### 4. Executive Summary
 *A consolidated view of all core KPIs, including total fees, engagement accounts, and overall financial health for rapid executive decision-making.*
-![Executive Summary View](powerbi/page4_summary.png)
+![Executive Summary View](Power-BI/page4_summary.png)
 
 ---
 
@@ -45,9 +52,9 @@ This repository contains a complete data pipeline, from Python-based Exploratory
 ```text
 ├── data/
 │   └── Banking.csv                 # Raw dataset containing 3,000 customer records
-├── eda/
+├── EDA/
 │   └── BankEDA.ipynb               # Python notebook containing data cleaning and analysis
-├── powerbi/
+├── Power-BI/
 │   ├── Banking Dashboard.pbix      # Interactive Power BI report file
 │   ├── page1_home.png              # Dashboard screenshot
 │   ├── page2_loan_analysis.png     # Dashboard screenshot
@@ -70,15 +77,13 @@ Clone this repository to your local machine.
 
 Ensure you have Python and Jupyter installed (e.g., via Anaconda).
 
-Navigate to the eda/ folder and open BankEDA.ipynb.
+Navigate to the EDA/ folder and open BankEDA.ipynb.
 
 Run the cells to view the statistical distributions and data cleaning process.
 
 2. Viewing the Power BI Dashboard
 Download and install Microsoft Power BI Desktop. (Note: Mac users will need a Windows virtual machine like Parallels Desktop).
 
-Open the powerbi/Banking Dashboard.pbix file.
+Open the Power-BI/Banking Dashboard.pbix file.
 
 Interact with the filters and visuals directly on your local machine.
-
-
