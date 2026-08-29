@@ -1,10 +1,3 @@
-Ah, that explains it! GitHub is strictly case-sensitive, so the paths in the README have to match your folder names exactly.
-
-Since your folders are named EDA and Power-BI, the code needs to reflect those exact capital letters and the hyphen.
-
-Here is the finalized code. Copy and paste this directly into your README.md on GitHub, and your images will finally show up!
-
-Markdown
 # 🏦 Banking Analytics & Performance Dashboard
 
 > **An end-to-end data analytics project exploring customer demographics, lending risk, and deposit behavior.**
